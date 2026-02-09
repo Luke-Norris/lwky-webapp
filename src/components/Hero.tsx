@@ -22,7 +22,7 @@ export default function Hero() {
       <div className="hero-bg" />
       <div className="hero-content">
         <motion.img
-          src="/images/logo.png"
+          src="/images/logo.svg"
           alt="Lwky"
           className="hero-logo"
           custom={0}

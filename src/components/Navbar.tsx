@@ -12,7 +12,7 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <a href="#" className="navbar-logo">
-        <img src="/images/logo.png" alt="Lwky" />
+        <img src="/images/logo.svg" alt="Lwky" />
       </a>
 
       <ul className="navbar-links">
