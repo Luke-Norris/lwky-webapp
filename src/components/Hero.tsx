@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import DiscordIcon from './DiscordIcon'
+import logo from '/images/lwkyLogoEnhanced.png'
 
 const DISCORD_LINK = '#discord'
 
@@ -22,7 +23,7 @@ export default function Hero() {
       <div className="hero-bg" />
       <div className="hero-content">
         <motion.img
-          src="/images/lwkyLogoEnhanced.png"
+          src={logo}
           alt="Lwky"
           className="hero-logo"
           custom={0}
