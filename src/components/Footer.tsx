@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-left">
-          <img src="/images/logo.svg" alt="Lwky" />
+          <img src="/images/lwkyLogoEnhanced.png" alt="Lwky" />
           <span>Lwky Creative Studios</span>
         </div>
         <div className="footer-right">
