@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import DiscordIcon from './DiscordIcon'
+import logo from '/images/lwkyLogoEnhanced.png'
 
 const DISCORD_LINK = '#discord'
 
@@ -12,7 +13,7 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] as const }}
     >
       <a href="#" className="navbar-logo">
-        <img src="/images/lwkyLogoEnhanced.png" alt="Lwky" />
+        <img src={logo} alt="Lwky" />
       </a>
 
       <ul className="navbar-links">

@@ -1,9 +1,11 @@
+import logo from '/images/lwkyLogoEnhanced.png'
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-left">
-          <img src="/images/lwkyLogoEnhanced.png" alt="Lwky" />
+          <img src={logo} alt="Lwky" />
           <span>Lwky Creative Studios</span>
         </div>
         <div className="footer-right">
