@@ -21,13 +21,14 @@
   --glow: rgba(88, 101, 242, 0.12);
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+  background: #000000;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: var(--bg-primary);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

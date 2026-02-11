@@ -1,6 +1,7 @@
 .app {
   min-height: 100vh;
   position: relative;
+  background: #000000;
 }
 
 /* ── Navbar ─────────────────────────────────── */
@@ -96,32 +97,7 @@
 }
 
 .hero-bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-
-.hero-bg::before {
-  content: '';
-  position: absolute;
-  top: -40%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 800px;
-  height: 800px;
-  background: radial-gradient(circle, var(--glow) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-.hero-bg::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 200px;
-  background: linear-gradient(to top, var(--bg-primary), transparent);
-  pointer-events: none;
+  display: none;
 }
 
 .hero-content {
@@ -138,7 +114,6 @@
   width: 220px;
   height: auto;
   margin-bottom: 0.5rem;
-  filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.08));
 }
 
 .hero-tagline {
@@ -308,7 +283,7 @@
 .map-card-image-placeholder {
   width: 100%;
   aspect-ratio: 16/9;
-  background: linear-gradient(135deg, var(--bg-secondary) 0%, #1a1a2e 100%);
+  background: linear-gradient(135deg, #111111 0%, #161616 100%);
   display: flex;
   align-items: center;
   justify-content: center;
