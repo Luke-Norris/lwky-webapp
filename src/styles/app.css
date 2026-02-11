@@ -1,6 +1,7 @@
 .app {
   min-height: 100vh;
   position: relative;
+  background: #000000;
 }
 
 /* ── Navbar ─────────────────────────────────── */
@@ -32,7 +33,6 @@
 .navbar-logo img {
   height: 32px;
   width: auto;
-  mix-blend-mode: screen;
 }
 
 .navbar-logo span {
@@ -97,22 +97,7 @@
 }
 
 .hero-bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  background: #0a0a0a;
-}
-
-.hero-bg::before {
-  content: '';
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(88, 101, 242, 0.06) 0%, transparent 60%);
-  pointer-events: none;
+  display: none;
 }
 
 .hero-content {
@@ -129,7 +114,6 @@
   width: 220px;
   height: auto;
   margin-bottom: 0.5rem;
-  mix-blend-mode: screen;
 }
 
 .hero-tagline {
@@ -500,7 +484,6 @@
 .footer-left img {
   height: 24px;
   width: auto;
-  mix-blend-mode: screen;
 }
 
 .footer-left span {
