@@ -23,11 +23,12 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: var(--bg-primary);
+  background-color: #0a0a0a !important;
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
